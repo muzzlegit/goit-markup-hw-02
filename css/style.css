@@ -29,6 +29,10 @@ body {
 .list {
   list-style: none;
 }
+/*активная страница*/
+.active-page {
+  color: var(--accent-text-color);
+}
 /*стилизация логотипа*/
 .logo {
   color: var(--accent-text-color);
@@ -45,11 +49,11 @@ body {
 .navigation-list {
   color: var(--secondary-text-color);
 }
-.navigation-list .link {
+.navigation-list .navigation-link {
   text-decoration: none;
 }
-.navigation-list .link:hover,
-.navigation-list .link:focus {
+.navigation-list .navigation-link:hover,
+.navigation-list .navigation-link:focus {
   color: var(--accent-text-color);
 }
 /*стилизация контактных ссылок*/
