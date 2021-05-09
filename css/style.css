@@ -1,0 +1,134 @@
+/*основной цвет текста #757575*/
+/*вторичный цвет текста #212121*/
+/*черный #000000*/
+/*белый #FFFFFF*/
+/*белый прозрачный rgba(255,255,255,.6)*/
+/*акцент #2196F3*/
+
+/*основной цвет фона #FFFFFF*/
+/*герой цвет фона #2F303A*/
+/*вторичный цвет фона #F5F4FA*/
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --link-text-color: rgba(255, 255, 255, 0.6);
+  --black-text-color: #000000;
+  --white-text-color: #ffffff;
+
+  --bg-button-color: #f5f4fa;
+  --active-bg-button-color: #2196f3;
+}
+
+body {
+  background-color: var(--white-text-color);
+  color: var(--primary-text-color);
+}
+/*ШАПКА*/
+/*сброс стилей списка*/
+.list {
+  list-style: none;
+}
+/*стилизация логотипа*/
+.logo {
+  color: var(--accent-text-color);
+  text-decoration: none;
+}
+.logo-header {
+  color: var(--black-text-color);
+}
+
+.logo span:hover,
+.logo:focus {
+  color: var(--accent-text-color);
+}
+/*стилизация меню навигации*/
+.navigation-list {
+  color: var(--secondary-text-color);
+}
+.navigation-list .link {
+  text-decoration: none;
+}
+.navigation-list .link:hover,
+.navigation-list .link:focus {
+  color: var(--accent-text-color);
+}
+/*стилизация контактных ссылок*/
+.contacts {
+  color: var(--primary-text-color);
+}
+.contacts-link {
+  color: inherit;
+  text-decoration: none;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-text-color);
+}
+/*СЕКЦИИ ОСНОВНОГО КОНТЕНТА*/
+.hero-title {
+  color: var(--secondary-text-color);
+}
+.section {
+  color: var(--primary-text-color);
+}
+.section-title {
+  color: var(--secondary-text-color);
+}
+/*преимущества*/
+.feature {
+  color: var(--primary-text-color);
+}
+.feature-title {
+  color: var(--secondary-text-color);
+}
+/*Чем мы занимаемся*/
+
+/*Наша команда*/
+
+.team-link {
+  text-decoration: none;
+}
+.team-title {
+  color: var(--secondary-text-color);
+}
+.team-title:hover,
+.team-title:focus {
+  color: var(--accent-text-color);
+}
+.team-description {
+  color: var(--primary-text-color);
+}
+.team-description:hover,
+.team-description:focus {
+  color: var(--accent-text-color);
+}
+/*Футер*/
+.logo-footer {
+  color: var(--white-text-color);
+}
+.address-text {
+  color: var(--white-text-color);
+}
+.address-link {
+  color: var(--link-text-color);
+  text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-text-color);
+}
+/*КНОПКИ*/
+.hero-button {
+  background-color: var(--active-bg-button-color);
+  color: var(--white-text-color);
+}
+.button {
+  background-color: var(--bg-button-color);
+  color: var(--secondary-text-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--active-bg-button-color);
+  color: var(--white-text-color);
+}
