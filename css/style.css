@@ -37,11 +37,10 @@ body {
 .logo-header {
   color: var(--black-text-color);
 }
-
-.logo span:hover,
-.logo:focus {
-  color: var(--accent-text-color);
+.logo-footer {
+  color: var(--white-text-color);
 }
+
 /*стилизация меню навигации*/
 .navigation-list {
   color: var(--secondary-text-color);
@@ -69,6 +68,7 @@ body {
 .hero-title {
   color: var(--secondary-text-color);
 }
+
 .section {
   color: var(--primary-text-color);
 }
@@ -103,10 +103,29 @@ body {
 .team-description:focus {
   color: var(--accent-text-color);
 }
-/*Футер*/
-.logo-footer {
-  color: var(--white-text-color);
+/*-----------------------------------------------*/
+/*СТРАНИЦА ПОРТФОЛИО*/
+/*.examples {
+  color: var(--primary-text-color);
 }
+*/
+
+.examples-link {
+  text-decoration: none;
+}
+.examples-title {
+  color: var(--secondary-text-color);
+}
+.examples-title:hover,
+.examples-title:focus {
+  color: var(--accent-text-color);
+}
+.examples-description:hover,
+.examples-description:focus {
+  color: var(--accent-text-color);
+}
+/*-----------------------------------------------*/
+/*Футер*/
 .address-text {
   color: var(--white-text-color);
 }
