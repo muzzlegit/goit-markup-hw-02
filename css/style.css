@@ -21,6 +21,7 @@
 }
 
 body {
+  font-family: Roboto;
   background-color: var(--white-text-color);
   color: var(--primary-text-color);
 }
@@ -35,6 +36,7 @@ body {
 }
 /*стилизация логотипа*/
 .logo {
+  font-family: Raleway;
   color: var(--accent-text-color);
   text-decoration: none;
 }
@@ -130,6 +132,11 @@ body {
 }
 /*-----------------------------------------------*/
 /*Футер*/
+/*временно для видимости белого текста*/
+.footer {
+  background-color: #2f303a;
+}
+
 .address-text {
   color: var(--white-text-color);
 }
