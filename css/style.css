@@ -21,9 +21,10 @@
 }
 
 body {
-  font-family: Roboto;
   background-color: var(--white-text-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /*ШАПКА*/
 /*сброс стилей списка*/
@@ -36,10 +37,11 @@ body {
 }
 /*стилизация логотипа*/
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: inherit;
   color: var(--accent-text-color);
   text-decoration: none;
 }
@@ -55,6 +57,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 .navigation-list .navigation-link {
@@ -69,6 +72,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 .contacts-link {
@@ -87,6 +91,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-text-color);
 }
@@ -149,7 +154,16 @@ body {
   text-decoration: none;
 }
 .examples-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--secondary-text-color);
+}
+.examples-description {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
 }
 .examples-title:hover,
 .examples-title:focus {
@@ -161,8 +175,9 @@ body {
 }
 /*-----------------------------------------------*/
 /*Футер*/
-/*временно для видимости белого текста*/
+
 .footer {
+  /*временно для видимости белого текста*/
   background-color: #2f303a;
 }
 
@@ -189,11 +204,17 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   cursor: pointer;
   background-color: var(--active-bg-button-color);
   color: var(--white-text-color);
 }
 .button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: inherit;
   background-color: var(--bg-button-color);
   color: var(--secondary-text-color);
 }
