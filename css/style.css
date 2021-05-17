@@ -31,10 +31,6 @@ body {
 .pointkiller {
   list-style: none;
 }
-/*активная страница*/
-.active-page {
-  color: var(--accent-text-color);
-}
 /*стилизация логотипа*/
 .logo {
   font-family: Raleway, sans-serif;
@@ -53,18 +49,21 @@ body {
 }
 
 /*стилизация меню навигации*/
-.navigation-list {
+.navigation-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.navigation-list .navigation-link {
+.navigation-link.active-page {
+  color: var(--accent-text-color);
+}
+.navigation-link {
   text-decoration: none;
 }
-.navigation-list .navigation-link:hover,
-.navigation-list .navigation-link:focus {
+.navigation-link:hover,
+.navigation-link:focus {
   color: var(--accent-text-color);
 }
 /*стилизация контактных ссылок*/
