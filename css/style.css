@@ -1,13 +1,3 @@
-/*основной цвет текста #757575*/
-/*вторичный цвет текста #212121*/
-/*черный #000000*/
-/*белый #FFFFFF*/
-/*белый прозрачный rgba(255,255,255,.6)*/
-/*акцент #2196F3*/
-
-/*основной цвет фона #FFFFFF*/
-/*герой цвет фона #2F303A*/
-/*вторичный цвет фона #F5F4FA*/
 :root {
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
@@ -111,7 +101,6 @@ body {
   color: var(--primary-text-color);
 }
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--secondary-text-color);
@@ -123,7 +112,6 @@ body {
   line-height: 1.71;
 }
 .feature-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--secondary-text-color);
@@ -202,7 +190,6 @@ body {
   text-decoration: none;
 }
 .examples-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
